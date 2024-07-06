@@ -1,0 +1,156 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /main_seq
+=== Design Unit: work.main_seq
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       1         1         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/main_seq/random_sequence/body/#anonblk#134508273#21#4#/#ublk#134508273#21/immed__27
+                     main_seq.sv(27)                    0          1
+
+=================================================================================
+=== Instance: /spi_coverage_pkg
+=== Design Unit: work.spi_coverage_pkg
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na   100.00%
+        Coverpoints/Crosses          4        na        na        na
+            Covergroup Bins         13        13         0   100.00%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /spi_coverage_pkg/spi_coverage/cg               100.00%        100          -    Covered              
+    covered/total bins:                                    13         13          -                      
+    missing/total bins:                                     0         13          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint reset_cp                               100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint MOSI_cp1                               100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint MOSI_cp2                               100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint SS_n_cp                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/spi_coverage_pkg::spi_coverage::cg  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    13         13          -                      
+    missing/total bins:                                     0         13          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint reset_cp                               100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin zero                                         2481          1          -    Covered              
+        bin one                                        247520          1          -    Covered              
+        bin one_then_zero                                2460          1          -    Covered              
+        bin zero_then_one                                2461          1          -    Covered              
+    Coverpoint MOSI_cp1                               100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin MOSI_wr_address                             62692          1          -    Covered              
+        bin MOSI_wr_data                                62416          1          -    Covered              
+        bin MOSI_rd_address                             62482          1          -    Covered              
+        bin MOSI_rd_data                                62411          1          -    Covered              
+    Coverpoint MOSI_cp2                               100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin MOSI_first_addr                              7777          1          -    Covered              
+        bin MOSI_last_addr                               7757          1          -    Covered              
+        bin rest_MOSI                                  234467          1          -    Covered              
+    Coverpoint SS_n_cp                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin SS_n_0                                     245033          1          -    Covered              
+        bin SS_n_1                                       4968          1          -    Covered              
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /spi_coverage_pkg/spi_coverage/cg               100.00%        100          -    Covered              
+    covered/total bins:                                    13         13          -                      
+    missing/total bins:                                     0         13          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint reset_cp                               100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint MOSI_cp1                               100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint MOSI_cp2                               100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint SS_n_cp                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/spi_coverage_pkg::spi_coverage::cg  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    13         13          -                      
+    missing/total bins:                                     0         13          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint reset_cp                               100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin zero                                         2481          1          -    Covered              
+        bin one                                        247520          1          -    Covered              
+        bin one_then_zero                                2460          1          -    Covered              
+        bin zero_then_one                                2461          1          -    Covered              
+    Coverpoint MOSI_cp1                               100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin MOSI_wr_address                             62692          1          -    Covered              
+        bin MOSI_wr_data                                62416          1          -    Covered              
+        bin MOSI_rd_address                             62482          1          -    Covered              
+        bin MOSI_rd_data                                62411          1          -    Covered              
+    Coverpoint MOSI_cp2                               100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin MOSI_first_addr                              7777          1          -    Covered              
+        bin MOSI_last_addr                               7757          1          -    Covered              
+        bin rest_MOSI                                  234467          1          -    Covered              
+    Coverpoint SS_n_cp                                100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin SS_n_0                                     245033          1          -    Covered              
+        bin SS_n_1                                       4968          1          -    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/main_seq/random_sequence/body/#anonblk#134508273#21#4#/#ublk#134508273#21/immed__27
+                     main_seq.sv(27)                    0          1
+
+Total Coverage By Instance (filtered view): 100.00%
+

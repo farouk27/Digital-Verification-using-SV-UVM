@@ -1,0 +1,69 @@
+{D:/Digital Kareem Waseem/SV/Assignments/Project/Design_Number_1/SPI_RAM/spi_wrapper_interface.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/SV/Assignments/Project/Design_Number_1/SPI_RAM/spi_wrapper_interface.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface spi_wrapper_interface
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital Kareem Waseem/SV/Assignments/Project/Design_Number_1/SPI_RAM/spi_wrapper.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/SV/Assignments/Project/Design_Number_1/SPI_RAM/spi_wrapper.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module spi_wrapper
+
+Top level modules:
+	spi_wrapper
+
+} {} {}} {D:/Digital Kareem Waseem/SV/Assignments/Project/Design_Number_1/SPI_RAM/spi_wrapper_tb.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/SV/Assignments/Project/Design_Number_1/SPI_RAM/spi_wrapper_tb.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package spi_wrapper_tb_sv_unit
+-- Importing package spi_wrapper_package
+-- Compiling module spi_wrapper_tb
+
+Top level modules:
+	spi_wrapper_tb
+
+} {} {}} {D:/Digital Kareem Waseem/SV/Assignments/Project/Design_Number_1/SPI_RAM/spi_wrapper_sva.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/SV/Assignments/Project/Design_Number_1/SPI_RAM/spi_wrapper_sva.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module spi_wrapper_sva
+
+Top level modules:
+	spi_wrapper_sva
+
+} {} {}} {D:/Digital Kareem Waseem/SV/Assignments/Project/Design_Number_1/SPI_RAM/spi_wrapper_top.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/SV/Assignments/Project/Design_Number_1/SPI_RAM/spi_wrapper_top.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module spi_wrapper_top
+
+Top level modules:
+	spi_wrapper_top
+
+} {} {}} {D:/Digital Kareem Waseem/SV/Assignments/Project/Design_Number_1/SPI_RAM/project_ram.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/SV/Assignments/Project/Design_Number_1/SPI_RAM/project_ram.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module spi_ram
+
+Top level modules:
+	spi_ram
+
+} {} {}} {D:/Digital Kareem Waseem/SV/Assignments/Project/Design_Number_1/SPI_RAM/spi_wrapper_package.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/SV/Assignments/Project/Design_Number_1/SPI_RAM/spi_wrapper_package.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package spi_wrapper_package
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital Kareem Waseem/SV/Assignments/Project/Design_Number_1/SPI_RAM/spi_wrapper_monitor.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/SV/Assignments/Project/Design_Number_1/SPI_RAM/spi_wrapper_monitor.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module SPI_MONITOR
+
+Top level modules:
+	SPI_MONITOR
+
+} {} {}} {D:/Digital Kareem Waseem/SV/Assignments/Project/Design_Number_1/SPI_RAM/spi_wrapper_coverage.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/SV/Assignments/Project/Design_Number_1/SPI_RAM/spi_wrapper_coverage.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+
+} {} {}} {D:/Digital Kareem Waseem/SV/Assignments/Project/Design_Number_1/SPI_RAM/project_spi.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Kareem Waseem/SV/Assignments/Project/Design_Number_1/SPI_RAM/project_spi.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module project
+
+Top level modules:
+	project
+
+} {} {}}

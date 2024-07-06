@@ -1,0 +1,61 @@
+{D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/RAM/ram_top.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/RAM/ram_top.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ram_top
+
+Top level modules:
+	ram_top
+
+} {} {}} {D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/RAM/ram_if.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/RAM/ram_if.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface RAM_if
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/RAM/project_ram.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/RAM/project_ram.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module spi_ram
+
+Top level modules:
+	spi_ram
+
+} {} {}} {D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/RAM/ram_monitor.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/RAM/ram_monitor.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module RAM_MONITOR
+
+Top level modules:
+	RAM_MONITOR
+
+} {} {}} {D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/RAM/ram_transaction_package.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/RAM/ram_transaction_package.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_package
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/RAM/ram_coverage_pkg.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/RAM/ram_coverage_pkg.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_coverage_pkg
+-- Importing package ram_package
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/RAM/ram_tb.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/RAM/ram_tb.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_tb_sv_unit
+-- Importing package ram_package
+-- Importing package ram_coverage_pkg
+-- Compiling module RAM_TB
+
+Top level modules:
+	RAM_TB
+
+} {} {}} {D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/RAM/ram_sva.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/RAM/ram_sva.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ram_sva
+
+Top level modules:
+	ram_sva
+
+} {} {}}

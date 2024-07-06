@@ -1,0 +1,273 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/questasim64_2021.1/examples
+T_opt
+!s110 1696976462
+VHj^I>n52:kJiXKjEN2H2_0
+04 15 4 work spi_wrapper_top fast 0
+=2-842afdce60ec-6525ce4d-27f-257c
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vproject
+Z2 !s110 1696976458
+!i10b 1
+!s100 DBS<Pa_40A3?l<]YCcN6D2
+IMSho1[^S3J?aco<ohGDno1
+Z3 dD:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI
+w1696879966
+8D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/project_spi.v
+FD:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/project_spi.v
+!i122 104
+L0 1 130
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z6 !s108 1696976458.000000
+!s107 D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/project_spi.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/project_spi.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vSPI_MONITOR
+Z7 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z8 !s110 1696976459
+!i10b 1
+!s100 729U^KXIBN4^elc4f>LWK2
+Io0Kgg7lo@Yg9JP_eSIKb>1
+S1
+R3
+w1696877828
+8D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/spi_wrapper_monitor.sv
+FD:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/spi_wrapper_monitor.sv
+!i122 107
+L0 1 7
+R4
+R5
+r1
+!s85 0
+31
+Z9 !s108 1696976459.000000
+!s107 D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/spi_wrapper_monitor.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/spi_wrapper_monitor.sv|
+!i113 0
+Z10 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@s@p@i_@m@o@n@i@t@o@r
+vspi_ram
+R7
+R2
+!i10b 1
+!s100 B`g>^:PEQ:QGTi58NQWSd1
+Ii<_M151ITzCh@?=l]WgD:0
+S1
+R3
+w1696975714
+8D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/project_ram.sv
+FD:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/project_ram.sv
+!i122 103
+L0 1 53
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/project_ram.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/project_ram.sv|
+!i113 0
+R10
+R1
+vspi_wrapper
+R7
+R2
+!i10b 1
+!s100 S`NAG4_bZ6EeLQ21kDhfa3
+IIZoelC6zJKRDnS@RTF=7e0
+S1
+R3
+w1696975590
+8D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/spi_wrapper.sv
+FD:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/spi_wrapper.sv
+!i122 105
+L0 1 23
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/spi_wrapper.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/spi_wrapper.sv|
+!i113 0
+R10
+R1
+Yspi_wrapper_interface
+R7
+R2
+!i10b 1
+!s100 lXP9?AH;SG?T=Uldn=edI0
+Ilzh5VBJ1Y]JVmQ0kMa^gN0
+S1
+R3
+w1696974682
+8D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/spi_wrapper_interface.sv
+FD:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/spi_wrapper_interface.sv
+!i122 106
+Z11 L0 1 0
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/spi_wrapper_interface.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/spi_wrapper_interface.sv|
+!i113 0
+R10
+R1
+Xspi_wrapper_package
+R7
+R8
+!i10b 1
+!s100 g_GR8]AP15>WD^fhLc>FE3
+IXfmldiNLZXeGSH;K7C:>91
+S1
+R3
+w1696976439
+8D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/spi_wrapper_package.sv
+FD:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/spi_wrapper_package.sv
+!i122 108
+R11
+VXfmldiNLZXeGSH;K7C:>91
+R5
+r1
+!s85 0
+31
+R9
+!s107 D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/spi_wrapper_package.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/spi_wrapper_package.sv|
+!i113 0
+R10
+R1
+vspi_wrapper_sva
+R7
+!s110 1696975911
+!i10b 1
+!s100 1`fE__fc@K7GULn8GgQ9S2
+ILf7IEUSOd=WX=>X63]kZC1
+S1
+R3
+w1696975742
+8D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/spi_wrapper_sva.sv
+FD:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/spi_wrapper_sva.sv
+!i122 81
+L0 1 28
+R4
+R5
+r1
+!s85 0
+31
+!s108 1696975911.000000
+!s107 D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/spi_wrapper_sva.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/spi_wrapper_sva.sv|
+!i113 0
+R10
+R1
+vspi_wrapper_tb
+R7
+Z12 DXx4 work 19 spi_wrapper_package 0 22 XfmldiNLZXeGSH;K7C:>91
+DXx4 work 22 spi_wrapper_tb_sv_unit 0 22 Ff?2<AmUg8;zYCIEo@[EP1
+R8
+R4
+r1
+!s85 0
+!i10b 1
+!s100 h;Hc;O]:E`EM>KLCDRR]E2
+I6bKf0kCVIe4KY0`iA>4kW2
+!s105 spi_wrapper_tb_sv_unit
+S1
+R3
+Z13 w1696976338
+Z14 8D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/spi_wrapper_tb.sv
+Z15 FD:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/spi_wrapper_tb.sv
+!i122 109
+L0 4 70
+R5
+31
+R9
+Z16 !s107 D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/spi_wrapper_tb.sv|
+Z17 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/spi_wrapper_tb.sv|
+!i113 0
+R10
+R1
+Xspi_wrapper_tb_sv_unit
+R7
+R12
+R8
+VFf?2<AmUg8;zYCIEo@[EP1
+r1
+!s85 0
+!i10b 1
+!s100 `5i<<@=7NfK:0II<8lKIH3
+IFf?2<AmUg8;zYCIEo@[EP1
+!i103 1
+S1
+R3
+R13
+R14
+R15
+!i122 109
+L0 2 0
+R5
+31
+R9
+R16
+R17
+!i113 0
+R10
+R1
+vspi_wrapper_top
+R7
+R8
+!i10b 1
+!s100 QWLf@PcKAf1KR1`j@PnTz3
+IdDj`<z7c4^aLJ^liGVDSb0
+S1
+R3
+w1696975938
+8D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/spi_wrapper_top.sv
+FD:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/spi_wrapper_top.sv
+!i122 110
+L0 1 19
+R4
+R5
+r1
+!s85 0
+31
+R9
+!s107 D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/spi_wrapper_top.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/SPI/spi_wrapper_top.sv|
+!i113 0
+R10
+R1

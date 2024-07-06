@@ -1,0 +1,159 @@
+{D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/main_seq.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/main_seq.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package main_seq
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package spi_seq_item_pkg
+** Note: (vlog-2286) D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/main_seq.sv(5): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/SPI_env_pkg.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/SPI_env_pkg.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package spi_env_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package spi_agent_pkg
+-- Importing package spi_monitor_pkg
+-- Importing package spi_seq_item_pkg
+-- Importing package spi_driver_pkg
+-- Importing package spi_sequencer_pkg
+-- Importing package spi_config_obj_pkg
+-- Importing package spi_coverage_pkg
+** Note: (vlog-2286) D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/SPI_env_pkg.sv(6): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/SPI_sequencer.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/SPI_sequencer.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package spi_sequencer_pkg
+-- Importing package spi_seq_item_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/SPI_sequencer.sv(5): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/project_spi.v} {1 {vlog -work work -vopt -stats=none {D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/project_spi.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module project
+
+Top level modules:
+	project
+
+} {} {}} {D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/SPI_wrapper.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/SPI_wrapper.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module spi_wrapper
+
+Top level modules:
+	spi_wrapper
+
+} {} {}} {D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/SPI_top.sv} {2 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/SPI_top.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Note: (vlog-2286) D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/SPI_top.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Warning: D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/SPI_top.sv(1): (vlog-13233) Design unit "SPI_top_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package SPI_top_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package spi_test_pkg
+-- Importing package spi_env_pkg
+-- Importing package spi_agent_pkg
+-- Importing package spi_monitor_pkg
+-- Importing package spi_seq_item_pkg
+-- Importing package spi_driver_pkg
+-- Importing package spi_sequencer_pkg
+-- Importing package spi_config_obj_pkg
+-- Importing package spi_coverage_pkg
+-- Importing package rst_seq
+-- Importing package main_seq
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} {D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/project_ram.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/project_ram.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module spi_ram
+
+Top level modules:
+	spi_ram
+
+} {} {}} {D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/SPI_driver.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/SPI_driver.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package spi_driver_pkg
+-- Importing package spi_seq_item_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/SPI_driver.sv(5): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/rst_seq.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/rst_seq.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package rst_seq
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package spi_seq_item_pkg
+** Note: (vlog-2286) D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/rst_seq.sv(5): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/SPI_agent_pkg.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/SPI_agent_pkg.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package spi_agent_pkg
+-- Importing package spi_monitor_pkg
+-- Importing package spi_seq_item_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package spi_driver_pkg
+-- Importing package spi_sequencer_pkg
+-- Importing package spi_config_obj_pkg
+** Note: (vlog-2286) D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/SPI_agent_pkg.sv(10): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/SPI_monitor_pkg.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/SPI_monitor_pkg.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package spi_monitor_pkg
+-- Importing package spi_seq_item_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/SPI_monitor_pkg.sv(5): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/SPI_wrapper_interface.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/SPI_wrapper_interface.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface spi_wrapper_interface
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/SPI_config_obj_pkg.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/SPI_config_obj_pkg.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package spi_config_obj_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/SPI_config_obj_pkg.sv(5): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/SPI_test_pkg.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/SPI_test_pkg.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package spi_test_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) D:/Digital Kareem Waseem/UVM/Assignments/Project/SPI/SPI_test_pkg.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package spi_env_pkg
+-- Importing package spi_agent_pkg
+-- Importing package spi_monitor_pkg
+-- Importing package spi_seq_item_pkg
+-- Importing package spi_driver_pkg
+-- Importing package spi_sequencer_pkg
+-- Importing package spi_config_obj_pkg
+-- Importing package spi_coverage_pkg
+-- Importing package rst_seq
+-- Importing package main_seq
+
+Top level modules:
+	--none--
+
+} {} {}}

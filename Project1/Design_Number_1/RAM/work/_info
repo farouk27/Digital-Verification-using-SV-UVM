@@ -1,0 +1,256 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/questasim64_2021.1/examples
+T_opt
+!s110 1696973165
+VbWgO9ma??g=a=C<9O8UKK3
+04 7 4 work ram_top fast 0
+=1-842afdce60ec-6525c16d-136-1494
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+Xram_coverage_pkg
+Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z2 DXx4 work 11 ram_package 0 22 `fn7=2BIgXkHaR:]OZ;?P1
+!s110 1696973156
+!i10b 1
+!s100 NU09A?]JO`@B<0OfP=@AD3
+I2=KO;9O8@_YcZ8_DC5_Qf2
+S1
+Z3 dD:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/RAM
+w1696626006
+8D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/RAM/ram_coverage_pkg.sv
+FD:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/RAM/ram_coverage_pkg.sv
+!i122 7
+Z4 L0 1 0
+V2=KO;9O8@_YcZ8_DC5_Qf2
+Z5 OL;L;2021.1;73
+r1
+!s85 0
+31
+!s108 1696973156.000000
+!s107 D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/RAM/ram_coverage_pkg.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/RAM/ram_coverage_pkg.sv|
+!i113 0
+Z6 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+YRAM_if
+R1
+Z7 !s110 1696973164
+!i10b 1
+!s100 eB2TznhFNa_`OXandCaed2
+IU@U]U?:<h=9TmQ7X6>KCE3
+S1
+R3
+w1696619826
+8ram_if.sv
+Fram_if.sv
+!i122 14
+R4
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+R5
+r1
+!s85 0
+31
+Z9 !s108 1696973164.000000
+Z10 !s107 ram_top.sv|ram_tb.sv|ram_sva.sv|ram_monitor.sv|ram_if.sv|project_ram.sv|
+Z11 !s90 -reportprogress|300|project_ram.sv|ram_if.sv|ram_monitor.sv|ram_sva.sv|ram_tb.sv|ram_top.sv|-covercells|
+!i113 0
+Z12 !s102 -covercells
+Z13 o-covercells -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+n@r@a@m_if
+vRAM_MONITOR
+R1
+R7
+!i10b 1
+!s100 IkAY9lD5k0Z@5QLfQM>@R0
+I<Oa99llM40P1IV9EcUV@a0
+S1
+R3
+w1696531154
+8ram_monitor.sv
+Fram_monitor.sv
+!i122 14
+L0 1 6
+R8
+R5
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R0
+n@r@a@m_@m@o@n@i@t@o@r
+Xram_package
+R1
+!s110 1696973157
+!i10b 1
+!s100 70<QePgMN9_;OJEOYP_T01
+I`fn7=2BIgXkHaR:]OZ;?P1
+S1
+R3
+w1696624556
+8D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/RAM/ram_transaction_package.sv
+FD:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/RAM/ram_transaction_package.sv
+!i122 13
+R4
+V`fn7=2BIgXkHaR:]OZ;?P1
+R5
+r1
+!s85 0
+31
+!s108 1696973157.000000
+!s107 D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/RAM/ram_transaction_package.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/RAM/ram_transaction_package.sv|
+!i113 0
+R6
+R0
+vram_sva
+R1
+R7
+!i10b 1
+!s100 i>k[;`Me7d^fF7TIYlC0h0
+I=Mk:mOFD`i9Fm8ci>VJ]33
+S1
+R3
+w1696622794
+8ram_sva.sv
+Fram_sva.sv
+!i122 14
+L0 1 50
+R8
+R5
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R0
+vRAM_TB
+R1
+R2
+Z14 DXx4 work 16 ram_coverage_pkg 0 22 2=KO;9O8@_YcZ8_DC5_Qf2
+DXx4 work 14 ram_tb_sv_unit 0 22 ZDdLPF6HUFeDd4nC`W;M>0
+R7
+R8
+r1
+!s85 0
+!i10b 1
+!s100 bMjYQHFE:AUMZUkHX8<>O2
+I=SQb7PoR_JXYPA70C;nk`0
+!s105 ram_tb_sv_unit
+S1
+R3
+Z15 w1696625394
+Z16 8ram_tb.sv
+Z17 Fram_tb.sv
+!i122 14
+L0 4 62
+R5
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R0
+n@r@a@m_@t@b
+Xram_tb_sv_unit
+R1
+R2
+R14
+R7
+VZDdLPF6HUFeDd4nC`W;M>0
+r1
+!s85 0
+!i10b 1
+!s100 23;jY9OYHG4JR58g3Do9z3
+IZDdLPF6HUFeDd4nC`W;M>0
+!i103 1
+S1
+R3
+R15
+R16
+R17
+!i122 14
+R4
+R5
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R0
+vram_top
+R1
+R7
+!i10b 1
+!s100 3Gc2=g;:DQ47N1Z5h6lNS0
+Ial;Y[E9U^>59KZliD=Dz;3
+S1
+R3
+w1696533184
+8ram_top.sv
+Fram_top.sv
+!i122 14
+L0 1 21
+R8
+R5
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R0
+vspi_ram
+R1
+R7
+!i10b 1
+!s100 :AMP?1z4ZRGE1WABmU=0l1
+ImDK5;knnj3a2cQzCA_aJG0
+S1
+R3
+w1696950384
+8project_ram.sv
+Fproject_ram.sv
+!i122 14
+L0 1 58
+R8
+R5
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R0

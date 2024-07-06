@@ -1,0 +1,16 @@
+SPI_wrapper_interface.sv
+SPI_config_obj_pkg.sv
+SPI_monitor_pkg.sv
+SPI_driver.sv
+SPI_seq_item_pkg.sv
+SPI_sequencer.sv
+SPI_agent_pkg.sv
+SPI_coverage_pkg.sv
+SPI_env_pkg.sv
+main_seq.sv
+rst_seq.sv
+SPI_test_pkg.sv 
+project_ram.sv 
+project_spi.v
+SPI_wrapper.sv
+SPI_top.sv

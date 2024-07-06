@@ -1,0 +1,275 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /top/DUT/ram_sva_instan
+=== Design Unit: work.ram_sva
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       5         5         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/top/DUT/ram_sva_instan/assert__read_address_next_read_data
+                     RAM_sva.sv(46)                     0          1
+/top/DUT/ram_sva_instan/assert__write_address_next_write_data
+                     RAM_sva.sv(37)                     0          1
+/top/DUT/ram_sva_instan/assert__tx_remain_low_to_nextRead
+                     RAM_sva.sv(28)                     0          1
+/top/DUT/ram_sva_instan/assert__check_tx_valid_transition
+                     RAM_sva.sv(19)                     0          1
+/top/DUT/ram_sva_instan/assert__check_reset
+                     RAM_sva.sv(10)                     0          1
+
+Directive Coverage:
+    Directives                       5         5         0   100.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/top/DUT/ram_sva_instan/cover__read_address_next_read_data 
+                                         ram_sva Verilog  SVA  RAM_sva.sv(47)   981 Covered   
+/top/DUT/ram_sva_instan/cover__write_address_next_write_data 
+                                         ram_sva Verilog  SVA  RAM_sva.sv(38)   983 Covered   
+/top/DUT/ram_sva_instan/cover__tx_remain_low_to_nextRead 
+                                         ram_sva Verilog  SVA  RAM_sva.sv(29)   857 Covered   
+/top/DUT/ram_sva_instan/cover__check_tx_valid_transition 
+                                         ram_sva Verilog  SVA  RAM_sva.sv(20)   879 Covered   
+/top/DUT/ram_sva_instan/cover__check_reset 
+                                         ram_sva Verilog  SVA  RAM_sva.sv(11)    37 Covered   
+
+=================================================================================
+=== Instance: /Wr_Data_seq
+=== Design Unit: work.Wr_Data_seq
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       1         1         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/Wr_Data_seq/write_data_sequence/body/immed__30
+                     Wr_Data_seq.sv(30)                 0          1
+
+=================================================================================
+=== Instance: /Rd_Data_seq
+=== Design Unit: work.Rd_Data_seq
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       1         1         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/Rd_Data_seq/read_data_sequence/body/immed__30
+                     Rd_Data_seq.sv(30)                 0          1
+
+=================================================================================
+=== Instance: /Rd_Addr_seq
+=== Design Unit: work.Rd_Addr_seq
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       1         1         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/Rd_Addr_seq/read_address_sequence/body/immed__26
+                     Rd_Addr_seq.sv(26)                 0          1
+
+=================================================================================
+=== Instance: /Wr_Addr_seq
+=== Design Unit: work.Wr_Addr_seq
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       1         1         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/Wr_Addr_seq/write_address_sequence/body/immed__27
+                     Wr_Addr_seq.sv(27)                 0          1
+
+=================================================================================
+=== Instance: /ram_coverage_pkg
+=== Design Unit: work.ram_coverage_pkg
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na   100.00%
+        Coverpoints/Crosses          4        na        na        na
+            Covergroup Bins         14        14         0   100.00%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /ram_coverage_pkg/ram_coverage/cg               100.00%        100          -    Covered              
+    covered/total bins:                                    14         14          -                      
+    missing/total bins:                                     0         14          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint reset_cp                               100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint din_cp                                 100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint rx_valid_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint tx_valid_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/ram_coverage_pkg::ram_coverage::cg  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    14         14          -                      
+    missing/total bins:                                     0         14          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint reset_cp                               100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin zero                                           37          1          -    Covered              
+        bin one                                          3964          1          -    Covered              
+        bin one_then_zero                                  36          1          -    Covered              
+        bin zero_then_one                                  37          1          -    Covered              
+    Coverpoint din_cp                                 100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin min                                             3          1          -    Covered              
+        bin max                                             9          1          -    Covered              
+    Coverpoint rx_valid_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin zero                                          415          1          -    Covered              
+        bin one                                          3586          1          -    Covered              
+        bin one_then_zero                                 375          1          -    Covered              
+        bin zero_then_one                                 376          1          -    Covered              
+    Coverpoint tx_valid_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin zero                                         3114          1          -    Covered              
+        bin one                                           887          1          -    Covered              
+        bin one_then_zero                                 886          1          -    Covered              
+        bin zero_then_one                                 887          1          -    Covered              
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /ram_coverage_pkg/ram_coverage/cg               100.00%        100          -    Covered              
+    covered/total bins:                                    14         14          -                      
+    missing/total bins:                                     0         14          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint reset_cp                               100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint din_cp                                 100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint rx_valid_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint tx_valid_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/ram_coverage_pkg::ram_coverage::cg  
+                                                      100.00%        100          -    Covered              
+    covered/total bins:                                    14         14          -                      
+    missing/total bins:                                     0         14          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint reset_cp                               100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin zero                                           37          1          -    Covered              
+        bin one                                          3964          1          -    Covered              
+        bin one_then_zero                                  36          1          -    Covered              
+        bin zero_then_one                                  37          1          -    Covered              
+    Coverpoint din_cp                                 100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin min                                             3          1          -    Covered              
+        bin max                                             9          1          -    Covered              
+    Coverpoint rx_valid_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin zero                                          415          1          -    Covered              
+        bin one                                          3586          1          -    Covered              
+        bin one_then_zero                                 375          1          -    Covered              
+        bin zero_then_one                                 376          1          -    Covered              
+    Coverpoint tx_valid_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin zero                                         3114          1          -    Covered              
+        bin one                                           887          1          -    Covered              
+        bin one_then_zero                                 886          1          -    Covered              
+        bin zero_then_one                                 887          1          -    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/top/DUT/ram_sva_instan/cover__read_address_next_read_data 
+                                         ram_sva Verilog  SVA  RAM_sva.sv(47)   981 Covered   
+/top/DUT/ram_sva_instan/cover__write_address_next_write_data 
+                                         ram_sva Verilog  SVA  RAM_sva.sv(38)   983 Covered   
+/top/DUT/ram_sva_instan/cover__tx_remain_low_to_nextRead 
+                                         ram_sva Verilog  SVA  RAM_sva.sv(29)   857 Covered   
+/top/DUT/ram_sva_instan/cover__check_tx_valid_transition 
+                                         ram_sva Verilog  SVA  RAM_sva.sv(20)   879 Covered   
+/top/DUT/ram_sva_instan/cover__check_reset 
+                                         ram_sva Verilog  SVA  RAM_sva.sv(11)    37 Covered   
+
+TOTAL DIRECTIVE COVERAGE: 100.00%  COVERS: 5
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/top/DUT/ram_sva_instan/assert__read_address_next_read_data
+                     RAM_sva.sv(46)                     0          1
+/top/DUT/ram_sva_instan/assert__write_address_next_write_data
+                     RAM_sva.sv(37)                     0          1
+/top/DUT/ram_sva_instan/assert__tx_remain_low_to_nextRead
+                     RAM_sva.sv(28)                     0          1
+/top/DUT/ram_sva_instan/assert__check_tx_valid_transition
+                     RAM_sva.sv(19)                     0          1
+/top/DUT/ram_sva_instan/assert__check_reset
+                     RAM_sva.sv(10)                     0          1
+/Wr_Data_seq/write_data_sequence/body/immed__30
+                     Wr_Data_seq.sv(30)                 0          1
+/Rd_Data_seq/read_data_sequence/body/immed__30
+                     Rd_Data_seq.sv(30)                 0          1
+/Rd_Addr_seq/read_address_sequence/body/immed__26
+                     Rd_Addr_seq.sv(26)                 0          1
+/Wr_Addr_seq/write_address_sequence/body/immed__27
+                     Wr_Addr_seq.sv(27)                 0          1
+
+Total Coverage By Instance (filtered view): 100.00%
+

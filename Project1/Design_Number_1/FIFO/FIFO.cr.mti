@@ -1,0 +1,68 @@
+{D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/FIFO/FIFO_transaction_pkg.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/FIFO/FIFO_transaction_pkg.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package FIFO_transaction_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/FIFO/FIFO_if.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/FIFO/FIFO_if.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface FIFO_if
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/FIFO/FIFO_TOP.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/FIFO/FIFO_TOP.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module FIFO_TOP
+
+Top level modules:
+	FIFO_TOP
+
+} {} {}} {D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/FIFO/FIFO_MONITOR.sv} {2 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/FIFO/FIFO_MONITOR.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Warning: D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/FIFO/FIFO_MONITOR.sv(1): (vlog-13233) Design unit "FIFO_MONITOR_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package FIFO_MONITOR_sv_unit
+-- Importing package shared_pkg
+-- Compiling module FIFO_MONITOR
+
+Top level modules:
+	FIFO_MONITOR
+
+} {} {}} {D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/FIFO/shared_pkg.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/FIFO/shared_pkg.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/FIFO/FIFO_scoreboard_pkg.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/FIFO/FIFO_scoreboard_pkg.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package FIFO_scoreboard_pkg
+-- Importing package FIFO_transaction_pkg
+-- Importing package shared_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/FIFO/FIFO.sv} {1 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/FIFO/FIFO.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module FIFO
+
+Top level modules:
+	FIFO
+
+} {} {}} {D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/FIFO/FIFO_TB.sv} {2 {vlog -work work -vopt -sv -stats=none {D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/FIFO/FIFO_TB.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Warning: D:/Digital Kareem Waseem/SV/Assignments/Project 1/Design_Number_1/FIFO/FIFO_TB.sv(1): (vlog-13233) Design unit "FIFO_TB_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package FIFO_TB_sv_unit
+-- Importing package FIFO_coverage_pkg
+-- Importing package FIFO_transaction_pkg
+-- Importing package FIFO_scoreboard_pkg
+-- Importing package shared_pkg
+-- Compiling module FIFO_TB
+
+Top level modules:
+	FIFO_TB
+
+} {} {}}
