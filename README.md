@@ -70,25 +70,4 @@ The monitor module:
 - Use SV Interface (optional).
 - Bind assertion file in top/testbench.
 
-## Requirements
-
-1. **Verification Plan**: Outline your verification strategy.
-2. **Verification Requirement Document**: Document functional checks, assertions, and verification flow.
-3. **Do File**: Script to run each testbench/top module.
-4. **Coverage Report**: Ensure 100% coverage (code, functional, assertions).
-5. **Bug Reporting**: Report and fix RTL bugs with before-and-after snapshots.
-6. **Randomized Stimulus**: Avoid directed test stimulus unless necessary.
-
-## Submission
-
-Submit a `.rar` file containing:
-- PDF of requirements.
-- SystemVerilog files with code snippets.
-- Do files for each testbench/top module.
-
-Name the `.rar` file with your team number. Refer to the [sheet here](#) to find your team number or to add your name.
-
----
-
-For more details, refer to the provided specifications and requirements documents.
 
